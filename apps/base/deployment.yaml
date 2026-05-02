@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: nginx:1.21.0
+          image: nginx:1.25.0
           ports:
             - containerPort: 80
           resources:
