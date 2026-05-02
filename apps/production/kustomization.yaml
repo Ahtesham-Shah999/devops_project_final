@@ -6,7 +6,7 @@ patches:
   - patch: |-
       - op: replace
         path: /spec/replicas
-        value: 9
+        value: 20
     target:
       kind: Deployment
       name: webapp
