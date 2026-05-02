@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: devops-project
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://github.com/Ahtesham-Shah999/devops_project_final.git
+  ref:
+    branch: main

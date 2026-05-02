@@ -9,7 +9,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: devops-project
+    name: flux-system
   healthChecks:
     - apiVersion: apps/v1
       kind: Deployment
