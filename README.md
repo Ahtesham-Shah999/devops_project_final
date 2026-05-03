@@ -1,4 +1,4 @@
-# devops_project_final
+# FLUX-CD-Devops
 
 A complete GitOps project using Flux CD.
 
